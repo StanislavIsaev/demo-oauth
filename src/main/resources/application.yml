@@ -1,0 +1,14 @@
+org:
+  springframework:
+    security:
+      config:
+        annotation:
+          web:
+            builders:
+              WebSecurity:
+                debugEnabled: true
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
